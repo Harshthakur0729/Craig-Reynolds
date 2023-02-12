@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    font-family: "voyage";
+    overflow: hidden;
+}
+
+#one {
+    position: absolute;
+    font-size: 210px;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0%);
+}
+
+#one:hover {
+    color: rgb(86, 137, 181);
+}
+
+#two {
+    line-height: 270px;
+    position: absolute;
+    left: 50%;
+    font-size: 350px;
+    font-family: "voyage";
+    transform: translate(-50%, 0%);
+    bottom: 3%;
+}
+
+#two:hover {
+    color: rgb(86, 137, 181);
+}
+
+.box {
+    height: 320px;
+    position: absolute;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(10deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#img1:hover {
+    z-index: 99;
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+#img2:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+#main1 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.box1 {
+    font-size: 70%;
+    font-family: "gilroy";
+    font-weight: 200;
+}
+
+#t1 {
+    position: absolute;
+    left: 23%;
+    width: 20%;
+    top: 20%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#t1:hover {
+    transform: scale(1.2);
+}
+
+#t2 {
+    position: absolute;
+    right: 23%;
+    width: 20%;
+    top: 40%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#t2:hover {
+    transform: scale(1.2);
+}
+
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 2%;
+    top: 50px;
+    height: 4%;
+}
+
+#circle01 {
+    position: absolute;
+    left: 8%;
+}
+
+#circle02 {
+    position: absolute;
+    left: 8.8%;
+}
+
+.circle:hover {
+    opacity: .4;
+}
+
+#t3 {
+    position: absolute;
+    width: 13.3%;
+    top: 80%;
+    left: 4%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#t3:hover {
+    transform: scale(1.5);
+    opacity: .3;
+}
+
+#t4 {
+    position: absolute;
+    font-weight: 100;
+    font-size: 15px;
+    right: 20px;
+    top: 83%;
+}
+
+#main03 {
+    width: 100%;
+    height: 170%;
+}
+
+#div01 {
+    position: absolute;
+    left: 20%;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 30px;
+    align-items: center;
+}
+
+#div01 h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    border-top: 3px solid black;
+    margin-bottom: 30px;
+    opacity: .7;
+}
+
+#div01 h1:hover {
+    opacity: .3;
+}
+
+#img3 {
+    top: 20%;
+    width: 15%;
+    height: 30%;
+    right: 30%;
+    position: absolute;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#img3:hover {
+    transform: scale(1.4);
+}
+
+#main4 {
+    border-top: 10%;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#main4 h1 {
+    position: absolute;
+    padding: 30px;
+    font-family: "gilroy";
+    font-size: 20px;
+}
+
+#main4 h2 {
+    position: absolute;
+    font-size: 220px;
+    left: 30%;
+    top: 20%;
+
+}
+
+#main4 h2:hover {
+    z-index: 8;
+    color: rgba(29, 28, 28, 0.584);
+}
+
+#img4 {
+    position: absolute;
+    padding: 30px;
+    width: 230px;
+    height: 400px;
+    left: 24%;
+    top: 160px;
+    border-radius: 40px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    
+}
+
+#img5 {
+    position: absolute;
+    padding: 30px;
+    width: 230px;
+    height: 400px;
+    left: 40%;
+    border-radius: 40px;
+    top: 160px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#img6 {
+    position: absolute;
+    padding: 30px;
+    width: 230px;
+    height: 400px;
+    left: 56%;
+    top: 160px;
+    border-radius: 40px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.tom:hover {
+    transform: scale(1.1);
+}
+
+#pp1 {
+    position: absolute;
+    width: 20%;
+    top: 140%;
+    left: 40%;
+    font-weight: 500;
+}
+
+.tom01 {
+
+    top: 110%;
+    left: 20%;
+    font-weight: lighter;
+}
+
+#yt1 {
+    position: absolute;
+    top: 115.5%;
+    left: 29%;
+    background-color: unset;
+    color: black;
+}
+
+#yt2 {
+    left: 43%;
+}
+
+#yt3 {
+    left: 45%;
+}
+
+#svg {
+    position: absolute;
+    right: 40%;
+}
+
+#svg2 {
+    position: absolute;
+    right: 34%;
+}
+
+#svg3 {
+    position: absolute;
+    right: 28%;
+}
+
+.tom02 {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    height: 5px;
+    width: 5px;
+    top: 110%;
+}
+
+.tom02:hover {
+    transform: scale(1.6);
+}
